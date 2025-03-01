@@ -80,14 +80,14 @@ public class TrafficSimulator extends Application {
         roadConditionLabelTitle.setStyle("-fx-padding: 5px;");
 
         // Create a map image with traffic and car symbols
-        Image mapImage = new Image("file:C:/Users/abhaa/JavaProject/istockphoto-1306807452-612x612.jpg");
+        Image mapImage = new Image("file:C:/Users/abhaa/Smart-Traffic-Management-System/istockphoto-1306807452-612x612.jpg");
         ImageView mapView = new ImageView(mapImage);
         mapView.setFitWidth(600);
         mapView.setPreserveRatio(true);
 
         // Overlay symbols on the map
-        Image trafficSymbol = new Image("file:C:/Users/abhaa/JavaProject/png-clipart-computer-icons-traffic-light-symbol-traffic-light-driving-traffic-sign.png");
-        Image carSymbol = new Image("file:C:/Users/abhaa/JavaProject/images.png");
+        Image trafficSymbol = new Image("file:C:/Users/abhaa/Smart-Traffic-Management-System/png-clipart-computer-icons-traffic-light-symbol-traffic-light-driving-traffic-sign.png");
+        Image carSymbol = new Image("file:C:/Users/abhaa/Smart-Traffic-Management-System/images.png");
         ImageView trafficSymbolView = new ImageView(trafficSymbol);
         ImageView carSymbolView = new ImageView(carSymbol);
 
